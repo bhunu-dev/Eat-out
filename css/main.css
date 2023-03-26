@@ -3,8 +3,9 @@ body{
     margin: 0;
 }
 .hero-bg{
-    background: rgb(69, 66, 243) u('../images/bg.jpg');
-    color:white;
+    background-image: url('../images/bg.jpg');
+    background-color: blue;
+    color:black;
     text-align: center;
     padding: 4em;
 }
@@ -28,4 +29,13 @@ h1 span{
     text-transform: uppercase;
     display: block;
     font-size: 1.5rem;
+    position: relative;
+}
+h1 span ::before{
+    content: '';
+    position: absolute;
+    width: 3em;
+    background: rgb(24, 233, 104);
+    height: 4em;
+    bottom: 0;
 }
