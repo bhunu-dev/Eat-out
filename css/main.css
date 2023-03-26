@@ -3,8 +3,29 @@ body{
     margin: 0;
 }
 .hero-bg{
-    background: rgb(242, 208, 106) url('../images/bg.jpg');
+    background: rgb(69, 66, 243) u('../images/bg.jpg');
     color:white;
     text-align: center;
     padding: 4em;
+}
+header{
+    padding: 1em 0;
+}
+.hero-bg a{
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 1.2rem;
+}
+section{
+    margin: 0 1em;
+}
+h1{
+    font-size: 2.5rem;
+    margin: 2em 0 1.2em;
+}
+h1 span{
+    text-transform: uppercase;
+    display: block;
+    font-size: 1.5rem;
 }
