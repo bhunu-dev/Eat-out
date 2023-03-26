@@ -1,0 +1,10 @@
+body{
+    font-family: sans-serif;
+    margin: 0;
+}
+.hero-bg{
+    background: rgb(242, 208, 106) url('../images/bg.jpg');
+    color:white;
+    text-align: center;
+    padding: 4em;
+}
