@@ -5,7 +5,7 @@ body{
 .hero-bg{
     background-image: url('../images/bg.jpg');
     background-color: blue;
-    color:black;
+    color:white;
     text-align: center;
     padding: 4em;
 }
@@ -30,12 +30,14 @@ h1 span{
     display: block;
     font-size: 1.5rem;
     position: relative;
+    z-index: 1;
 }
 h1 span ::before{
-    content: '';
+    content: ' ';
     position: absolute;
     width: 3em;
     background: rgb(24, 233, 104);
     height: 4em;
     bottom: 0;
+    z-index: -1;
 }
